@@ -1,18 +1,11 @@
 
-Mi Codigo de las figuras ejemplo:
+Proyecto Final, Materia El Arte de la Programacion:
 
-El Codigo funciona utilizando pandas y un archivo que contenga las "Medidas" que se utilizaran para
-obtener el área de las figuras.
-
-El programa lee el archivo de figura.csv y utilizando las especificaciones detecta cuales figuras son t (triangulos),
-r (rectangulos) y c (circulos). Una vez detectadas que figura es cual, el programa manda a llamar las funciones para obtener el
-area de las figuras correspondientes.
-
-Se usan funciones las cuales contienen las operaciones necesarias para calcular el área le la figura
-que imdique el usuario.
-
-
-
-para ejecutar escribe:
-
-python3 figuasPrincipal.py
+Este proyecto consiste en desarrollar un programa en Python que lea desde un archivo CSV los datos de diferentes figuras
+geométricas (círculo, triángulo y rectángulo) y calcule automáticamente el área correspondiente a cada una de ellas. 
+Para lograrlo, se utiliza la librería pandas, que permite importar y procesar los datos del archivo "figuras.csv", mientras que se
+definen funciones matemáticas específicas para cada figura. El código recorre fila por fila los registros del archivo, identifica
+el tipo de figura y aplica la fórmula adecuada para obtener el área, mostrando los resultados en la terminal y agregando una
+nueva columna con las áreas calculadas. Para ejecutar el programa, se debe abrir la terminal, ubicarse en la carpeta del proyecto 
+con el comando cd, y correr el archivo principal usando "python figurasPrincipal.py". De esta forma, el programa automatiza el 
+cálculo de áreas de manera ordenada, eficiente y visualmente clara.
